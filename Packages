@@ -1,14 +1,16 @@
-Package: Minho
-Version: 1.0.0
+Package: com.artikus.minho
+Version: 1.0.0-1+debug
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
+Installed-Size: 168
 Depends: mobilesubstrate
-Filename: /debs/com.artikus.minho-1.0.0.deb
-Size: 8374
-MD5sum: 1bfb3cf4002abe6e38998c4474fb670a
-SHA1: a3a709a9e178a22a88314493f19a518721777a92
-SHA256: 95c410a54d08d54decee22459d33e0040c94e4e35223d8bef00d9f4693d5964b
+Filename: ./debs/com.artikus.minho_1.0.0-1+debug_iphoneos-arm.deb
+Size: 16784
+MD5sum: be9c2fcf58bfb8ee862fdc856a264488
+SHA1: a75fe0d2a199df99d47d8219bee514991980fd21
+SHA256: 1a70c07819247766d4d6d768e9b9eaeb573e25326f7e315109648694231d3873
 Section: Tweaks
-Description: Bring your powerdown menu to a whole new level!
+Description: A whole new powerdown menu.
 Author: ArtikusHG
 Name: Minho
+
