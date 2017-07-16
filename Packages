@@ -3,7 +3,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Depends: mobilesubstrate
-Filename: packages/com.artikus.minho-1.0.0.deb
+Filename: /debs/com.artikus.minho-1.0.0.deb
 Size: 8374
 MD5sum: 1bfb3cf4002abe6e38998c4474fb670a
 SHA1: a3a709a9e178a22a88314493f19a518721777a92
