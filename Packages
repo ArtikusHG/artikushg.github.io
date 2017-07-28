@@ -14,3 +14,18 @@ Description: A whole new powerdown menu.
 Author: ArtikusHG
 Name: Minho
 
+Package: com.artikus.screenshotalert
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.artikus.screenshotalert_1.0.0-6+debug-iphoneos-arm.deb
+Size: 3852
+MD5sum: 13fccdfcf3d206acbb6f51d938ad8eab
+SHA1: f837d3e1d9a33e18147a18539b9b591e09f34aec
+SHA256: 33b020d3eb25cece69c10a5fe840a268c9789ad94398ebf61bd1a2051b4f9eae
+Section: Tweaks
+Description: Show an alert instead of flashing screen after screenshot.
+Author: ArtikusHG
+Name: ScreenshotAlert
