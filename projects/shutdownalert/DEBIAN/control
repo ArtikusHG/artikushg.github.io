@@ -1,0 +1,9 @@
+Package: com.artikus.screenshotalert
+Name: ScreenshotAlert
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Show an alert after saving a screenshot.
+Maintainer: ArtikusHG
+Author: ArtikusHG
+Section: Tweaks
