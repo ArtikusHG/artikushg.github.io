@@ -44,3 +44,4 @@ Section: Packaging
 Description: Icy is a lightweight DPKG-based installer for iOS.
 Author: ArtikusHG
 Name: Icy
+Depiction: https://artikushg.github.io/Icy.html
