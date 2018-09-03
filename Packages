@@ -52,10 +52,10 @@ Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Depends: ldid
 Filename: ./debs/com.artikus.IcyInstaller3-11_3.2_iphoneos-arm.deb
-Size: 764114
-MD5sum: 54fc01012b7b844c6c41f9dbd4c34fec
-SHA1: d59bdb7ea6d481e62e875aaa6e35be77b5d66051
-SHA256: 8ff759914bb4118b9d94b41c64d833641afe239cfc08e6f7f09f78fbbe6f950d
+Size: 764116
+MD5sum: 6e1e43a9c871274c088a23bced33717f
+SHA1: de9373e26db086a5eaed74bd1a284d76041c61ec
+SHA256: 9bd2d34185f46d7ae47d70732ea713fb85525a057c604f8b2fa27e1e10d451f1
 Section: Packaging
 Description: Icy is a lightweight DPKG-based installer for iOS.
 Author: ArtikusHG
