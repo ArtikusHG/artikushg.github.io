@@ -29,3 +29,18 @@ Section: Tweaks
 Description: Show an alert instead of flashing screen after screenshot.
 Author: ArtikusHG
 Name: ScreenshotAlert
+
+Package: com.artikus.IcyInstaller3
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Depends: ldid
+Filename: ./debs/com.artikus.IcyInstaller3_3.2_iphoneos-arm.deb
+Size: 764186
+MD5sum: 8ff59eadaa3d24b889f2b9d22adcfe44
+SHA1: 7f3db0d8cde353f0d374b053b51e3ababce5b011
+SHA256: 57059b41e7c56ef95137840e0b89765fcba82f1a124386cc340484040b2f00f9
+Section: Packaging
+Description: Icy is a lightweight DPKG-based installer for iOS.
+Author: ArtikusHG
+Name: Icy
