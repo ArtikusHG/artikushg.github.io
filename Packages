@@ -3,10 +3,10 @@ Version: 3.2
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Filename: ./debs/Icy.deb
-Size: 763080
-MD5sum: f7553dd052949b571280d2eb15fd5226
-SHA1: f241927c1e9e233873cbbb193d04662984c43826
-SHA256: 016ef00b5dd0962628f6e9707052b6e76fd73e8fcd43d0c852ffe100e2feefef
+Size: 763010
+MD5sum: f2b610c1f9d93e1bb7b67c87f5046788
+SHA1: 18cabbaf667ffd046cf7819b0121d0066b5c6f4f
+SHA256: 7c27b5a4afc89b115c969f1a2905cb77c444d41852683ca63e7520eecd2684f9
 Section: Packaging
 Description: Icy is a lightweight DPKG-based package manager for iOS.
 Author: ArtikusHG
