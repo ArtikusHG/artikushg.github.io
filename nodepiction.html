@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Icy Installer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function getMode() {
+  var captured = /mode=([^&]+)/.exec(window.location.href)[1];
+  var result = captured ? captured : 'light';
+  if(result == "dark") {
+    document.body.style.background = "black";
+    var p = document.getElementsByTagName('p');
+    for (var i = 0; i < p.length; i++) { p[i].style.color = 'white'; }
+  }
+}
+</script>
+</head>
+<body onload="getMode()">
+<p class="bigger">&nbspThis package has no depiction</p>
+<div class="gradient">
+<p>This means that this package does not have a webpage containing info about it. There is a possibility that this package has not been updated for a long time, or it's a beta package. You can still install it.</p>
+</div>
+</center>
+</body>
+<style>
+body {
+  font-family: -apple-system, Arial;
+  font-weight: bold;
+}
+.bigger {
+  font-size: 15pt;
+}
+.gradient {
+  background: linear-gradient(#2acfed, #257bc6);
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gradient2 {
+  background: linear-gradient(#f43d3d, #f4415c);
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gradient3 {
+  background: linear-gradient(#64bcb8, #4f9970);
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+</style>
+</html>
