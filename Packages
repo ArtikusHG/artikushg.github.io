@@ -1,27 +1,15 @@
 Package: com.artikus.IcyInstaller3
-Version: 3.2
+Version: 3.3
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Filename: ./debs/Icy.deb
-Size: 763010
-MD5sum: f2b610c1f9d93e1bb7b67c87f5046788
-SHA1: 18cabbaf667ffd046cf7819b0121d0066b5c6f4f
-SHA256: 7c27b5a4afc89b115c969f1a2905cb77c444d41852683ca63e7520eecd2684f9
+Size: 308100
+MD5sum: 18c35659968553e1038306ed0c35de54
+SHA1: f520cb1ff520b2926357c6f3ef06e599f76f3acf
+SHA256: 33c931e08e74c7fb20b9110f3dd611faef4c3c50d063c753decbc889e7ad28dc
 Section: Applications
 Description: Icy is a lightweight DPKG-based package manager for iOS.
 Author: ArtikusHG
+Depiction: https://artikushg.github.io/Icy.html
 Name: Icy
 
-Package: com.artikus.IcyInstaller3-11
-Version: 3.2
-Architecture: iphoneos-arm
-Maintainer: ArtikusHG
-Filename: ./debs/Icy_iOS11.deb
-Size: 702896
-MD5sum: ef2b2199ae4f6798ab261446b6b82428
-SHA1: 094c39fe07403cbf454bf01305ea2c46c2606a67
-SHA256: 2a88c75f8b96ac5c2423f5570c9b67e353fbdd866b6dc89034dd36b40bd8b33e
-Section: Packaging
-Description: Icy is a DPKG-based installer for iOS.
-Author: ArtikusHG
-Name: Icy (iOS 11)
