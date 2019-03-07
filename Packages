@@ -12,3 +12,21 @@ Description: Icy is a lightweight DPKG-based package manager for iOS.
 Author: ArtikusHG
 Name: Icy
 
+Package: com.artikus.neonboard
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 440
+Depends: mobilesubstrate
+Conflicts: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
+Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
+Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
+Filename: ./debs/com.artikus.neonboard_1.0.0_iphoneos-arm.deb
+Size: 40696
+MD5sum: cb9f1305fe7f8e5e037c3b718b19d0b7
+SHA1: cd92fad52e41600796993677d891268ba638d217
+SHA256: cdfb096d4580fee7eb0b22348ddc7ca5d0ee608ab4183e605d010722449b6aad
+Section: Tweaks
+Description: A small and unfinished theming engine I made as an experiment.
+Author: ArtikusHG
+Name: NeonBoard
