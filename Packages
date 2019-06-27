@@ -13,19 +13,19 @@ Author: ArtikusHG
 Name: Icy
 
 Package: com.artikus.neonboard
-Version: 1.0.2
+Version: 2.0.0
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
-Installed-Size: 440
+Installed-Size: 572
 Depends: mobilesubstrate
 Conflicts: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard
 Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
 Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
-Filename: ./debs/com.artikus.neonboard_1.0.2_iphoneos-arm.deb
-Size: 41386
-MD5sum: 56e6ef4446d7f6387ca730b09f15ecb7
-SHA1: ca9bedb0dcf5b0e8ebbc359a41d48b9b6d57538c
-SHA256: 78286c31b1449a82856c943179bec33a5986adf5757e2e6856f9638ebbb3fc6d
+Filename: ./debs/com.artikus.neonboard_2.0.0_iphoneos-arm.deb
+Size: 78524
+MD5sum: 6834f88ee5ac78eb4b0281edca3916a9
+SHA1: 31a73aba8d26f8204ab128cffd26a242d00aa120
+SHA256: c26856f930066e92ede39a2a440ee067eebb857972fe55f7d7d71d3b1bbc732d
 Section: Tweaks
 Description: A small and unfinished theming engine I made as an experiment.
 Author: ArtikusHG
