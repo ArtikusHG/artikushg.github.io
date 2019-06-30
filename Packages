@@ -16,13 +16,13 @@ Package: com.artikus.neonboard
 Version: 2.0.0
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
-Installed-Size: 572
+Installed-Size: 448
 Depends: mobilesubstrate
 Conflicts: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard
 Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
 Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
 Filename: ./debs/com.artikus.neonboard_2.0.0_iphoneos-arm.deb
-Size: 78516
+Size: 74130
 MD5sum: da437c504933ef78d85f16903124d1b0
 SHA1: a99775eba512da521de3e62ff5e5a138e653b67b
 SHA256: a88c7b89677f184b0187c58ba924693f94832cc680d3063b4becadbe6d3643d8
