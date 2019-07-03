@@ -22,10 +22,10 @@ Conflicts: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, 
 Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
 Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles
 Filename: ./debs/com.artikus.neonboard_2.0.0_iphoneos-arm.deb
-Size: 74130
-MD5sum: da437c504933ef78d85f16903124d1b0
-SHA1: a99775eba512da521de3e62ff5e5a138e653b67b
-SHA256: a88c7b89677f184b0187c58ba924693f94832cc680d3063b4becadbe6d3643d8
+Size: 74578
+MD5sum: 3d8b480654fddf22038a49ba1a13ab52
+SHA1: ddf95fa3c02b2893336e3a69a1cf0a53b5b09eee
+SHA256: 83bf5d23cf30606921c7f13e597c873edca28efde2dd6e032bde7630623cffa2
 Section: Tweaks
 Description: A small and unfinished theming engine I made as an experiment.
 Author: ArtikusHG
