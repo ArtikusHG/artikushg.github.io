@@ -2,55 +2,125 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Artikus' website</title>
-		<style>
-			body {
-				background-color: #272D3A;
-				color: white;
-				font-family: 'Source Code Pro';
+		<link href="animate.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="ArtikusHG's small personal website" />
+		<meta name="keywords" content="artikushg, artikus, repo, neonboard, cydia, ios, jailbreak, lime installer, package manager, tweak, stopchillin, icy, icy installer" />
+		<!-- this is supposed to have my name / surname and e-mail but i'd like to stay anonymous -->
+		<meta name="author" content="ArtikusHG" />
+		<meta http-equiv="author" content="ArtikusHG" />
+		<title>ArtikusHG's website</title>
+		<style type="text/css">
+			/* global styles */
+			* {
+				font-family: "Source Code Pro", monospace;
+				/* this is a personal preference of mine; might even remove one day, but let it stay for now */
+				text-transform: lowercase;
 			}
-			#avatar {
+			body {
+				overflow-x: hidden;
+				margin: 0 auto;
+				width: 96%;
+				background-color: #303747;
+				color: #ffffff;
+			}
+			/* text element styles */
+			p {
+				font-size: 15pt;
+				line-height: 1.5;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: 100;
+				text-align: left;
+			}
+			/* a styles */
+			a:link {
+				text-decoration: none;
+				color: #add8e6;
+			}
+			a:visited { color: #9363aa; }
+			a:hover, a:focus { color: #90ee90; }
+			a:active { color: #f08080; }
+			/* custom hr that looks like multiple "- - - -" characters to match the website's overall style */
+			hr {
+				height: 1px;
+				border: none;
+				/* screw it, i'm not adding 7 different gradient thingies for your 7 y/o browser. if you can't update your browser, enjoy your non-dotted line. */
+				background: #ffffff;
+				background: linear-gradient(to right, #ffffff 70%, rgba(255,255,255,0) 0%);
+				background-size: 20px 1px;
+				background-repeat: repeat-x;
+				margin: 0;
+			}
+			/* personal info & projects */
+			/*#avatar {
+				display: inline;
 				width: 200px;
 				height: 200px;
 				border-radius: 200px;
-			}
-			#header { font-size: 30pt; }
+			}*/
 			#info {
-				font-size: 20pt;
-				line-height: 1.5;
+				/*margin-left: 20px;*/
+				overflow: auto;
 			}
-			a {
-				text-decoration: none;
-				color: white;
+			.project {
+				background-color: #485266;
+				padding-left: 10px;
+				padding-right: 10px;
 			}
-			a:hover { color: lightBlue; }
-			a:hover { color: lightBlue; }
-			@media only screen and (min-width: 860px) {
-				#center {
-					margin: 0;
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					-ms-transform: translate(-50%, -50%);
-					transform: translate(-50%, -50%);
-				}
-			}
+
 		</style>
 	</head>
 	<body>
-		<div id="center" align="center">
-			<br />
-			<a href="https://twitter.com/artikus_hg"><img id="avatar" src="https://pbs.twimg.com/profile_images/1118918644321406976/7mMXGJbO_400x400.jpg" alt="If you're seeing this, it's supposed to be my twitter avatar" title="My twitter avatar" /></a>
-			<p id="header">ArtikusHG</p>
-			<p id="info">Hey there, I'm ArtikusHG, a 14 years old iOS app & tweak<br />developer and (kind of) a rapper and producer.<br />I also have some knowledge in hackintoshing and Linux.<br /><br />If you came here looking for my repo,<br />just add this URL to your package manager.</p>
-			<br />
-			<p id="links">
-			<a href="https://twitter.com/ArtikusHG">Twitter</a> | 
-			<a href="https://github.com/ArtikusHG">GitHub</a> | 
-			<a href="https://soundcloud.com/ArtikusHG">SoundCloud</a> | 
-			<a href="https://www.reddit.com/user/artikushg">Reddit</a>
-			</p>
+		<div id="content-div" class="animated fadeIn slow">
+			<div id="info-div" class="animated fadeInRight fast">
+				<h1>Uh oh, hello?</h1>
+				<!--
+					this caused WAY too much problems so i decided to leave it commented... at least for now :/
+					<img id="avatar" src="https://pbs.twimg.com/profile_images/1118918644321406976/7mMXGJbO_400x400.jpg" alt="If you're seeing this, it's supposed to be my twitter avatar, but your internet connection sucks :/" title="My twitter avatar" />
+				-->
+				<p id="info">
+					Hey there, looks like you found my website! I made most of it for my IT homework. By the way, SwiftLang sucks... Use Objective-C.
+					<br /><br />
+					I'm ArtikusHG, a 14 years old (mainly) iOS developer, hobbyist beatmaker and rapper. This website is pretty much useless since there's not really much info about me on here, but it still exists.
+				</p>
+			</div>
+			<br /><hr /><br />
+			<h1 class="animated fadeInRight fast">Projects & stuff</h2>
+			<div id="projects-div">
+				<div class="project animated fadeInLeft fast">
+					<h2>NeonBoard</h2>
+					<p>NeonBoard is an iOS theming engine I started as a fun side project... it ended up becoming a fully fledged tweak. It can theme icons on the whole SpringBoard, supports icon masks and doesn't waste battery. There's also some nice small customizations that I won't mention here; get it yourself and see.</p>
+				</div>
+				<div class="project animated fadeInRight fast">
+					<h2>Lime Installer</h2>
+					<p><a href="https://limeinstaller.com">Lime Installer</a> is an upcoming APT package manager frontend application for jailbroken iOS devices being developed by a team which I'm part of. Don't ask for an ETA, it might come out one day.</p>
+				</div>
+				<div class="project animated fadeInLeft fast">
+					<h2>StopChillin'</h2>
+					<p>StopChillin' is a simple yet useful tweak that tells you you're using your phone way too much. Don't tell me it's a copy of screen time, cause it's different. It sends a notification every &ltspecified time&gt, and the notification is 100% customizable.</p>
+				</div>
+			</div>
+			<br /><hr /><br />
+			<div id="social-div" class="animated fadeInRight fast">
+				<h1>My social media & other links</h1>
+				<p>I put my most important info & projects here, but it's not everything. If you want more, take a look at my social media.</p>
+				<p id="links">
+					Keep in mind that my YouRepo repo is for smaller / more personal projects & tweaks. For more advanced projects of mine, including NeonBoard, add this website's URL to your package manager, as it's my second repo.
+					<br /><br />
+					| <a href="https://twitter.com/ArtikusHG" target="_blank">Twitter</a> |
+					<a href="https://github.com/ArtikusHG" target="_blank">GitHub</a> |
+					<a href="https://soundcloud.com/ArtikusHG" target="_blank">SoundCloud</a> |
+					<a href="https://www.reddit.com/user/artikushg" target="_blank">Reddit</a> |
+					<a href="https://artikushg.yourepo.com/" target="_blank">YouRepo</a> |
+				</p>
+			</div>
+			<br /><hr />
+			<div id="copyright">
+				<p>Copyright (c) 2019 ArtikusHG. All Rights Reserved.</p>
+			</div>
+			<hr /><br />
 		</div>
 	</body>
 </html>
