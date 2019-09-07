@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-		<link href="animate.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta charset="UTF-8" />
 		<meta name="description" content="ArtikusHG's small personal website" />
@@ -69,12 +68,156 @@
 				padding-left: 10px;
 				padding-right: 10px;
 			}
-
+			/* animations */
+			/* fadeIn */
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-moz-keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-webkit-keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-o-keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-ms-keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.fadeIn {
+				animation: fadeIn 2s;
+				-moz-animation: fadeIn 2s;
+				-webkit-animation: fadeIn 2s;
+				-o-animation: fadeIn 2s;
+				-ms-animation: fadeIn 2s;
+			}	
+			/* fadeInRight */
+			@keyframes fadeInRight {
+				from {
+					opacity: 0;
+					transform: translate3d(100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					transform: translate3d(0, 0, 0);
+				}
+			}
+			@-moz-keyframes fadeInRight {
+				from {
+					opacity: 0;
+					-moz-transform: translate3d(100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-moz-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-webkit-keyframes fadeInRight {
+				from {
+					opacity: 0;
+					-webkit-transform: translate3d(100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-webkit-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-o-keyframes fadeInRight {
+				from {
+					opacity: 0;
+					-o-transform: translate3d(100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-o-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-ms-keyframes fadeInRight {
+				from {
+					opacity: 0;
+					-ms-transform: translate3d(100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-ms-transform: translate3d(0, 0, 0);
+				}
+			}
+			.fadeInRight {
+				animation: fadeInRight 800ms;
+				-moz-animation: fadeInRight 800ms;
+				-webkit-animation: fadeInRight 800ms;
+				-o-animation: fadeInRight 800ms;
+				-ms-animation: fadeInRight 800ms;
+			}
+			/* fadeInLeft */
+			@keyframes fadeInLeft {
+				from {
+					opacity: 0;
+					transform: translate3d(-100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					transform: translate3d(0, 0, 0);
+				}
+			}
+			@-moz-keyframes fadeInLeft {
+				from {
+					opacity: 0;
+					-moz-transform: translate3d(-100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-moz-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-webkit-keyframes fadeInLeft {
+				from {
+					opacity: 0;
+					-webkit-transform: translate3d(-100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-webkit-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-o-keyframes fadeInLeft {
+				from {
+					opacity: 0;
+					-o-transform: translate3d(-100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-o-transform: translate3d(0, 0, 0);
+				}
+			}
+			@-ms-keyframes fadeInLeft {
+				from {
+					opacity: 0;
+					-ms-transform: translate3d(-100%, 0, 0);
+				}
+				to {
+					opacity: 1;
+					-ms-transform: translate3d(0, 0, 0);
+				}
+			}
+			.fadeInLeft {
+				animation: fadeInLeft 800ms;
+				-moz-animation: fadeInLeft 800ms;
+				-webkit-animation: fadeInLeft 800ms;
+				-o-animation: fadeInLeft 800ms;
+				-ms-animation: fadeInLeft 800ms;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="content-div" class="animated fadeIn slow">
-			<div id="info-div" class="animated fadeInRight fast">
+		<div id="content-div" class="fadeIn">
+			<div id="info-div" class="fadeInRight">
 				<h1>Uh oh, hello?</h1>
 				<!--
 					this caused WAY too much problems so i decided to leave it commented... at least for now :/
@@ -87,23 +230,23 @@
 				</p>
 			</div>
 			<br /><hr /><br />
-			<h1 class="animated fadeInRight fast">Projects & stuff</h2>
+			<h1 class="fadeInRight">Projects & stuff</h2>
 			<div id="projects-div">
-				<div class="project animated fadeInLeft fast">
+				<div class="project fadeInLeft">
 					<h2>NeonBoard</h2>
 					<p>NeonBoard is an iOS theming engine I started as a fun side project... it ended up becoming a fully fledged tweak. It can theme icons on the whole SpringBoard, supports icon masks and doesn't waste battery. There's also some nice small customizations that I won't mention here; get it yourself and see.</p>
 				</div>
-				<div class="project animated fadeInRight fast">
+				<div class="project fadeInRight">
 					<h2>Lime Installer</h2>
 					<p><a href="https://limeinstaller.com">Lime Installer</a> is an upcoming APT package manager frontend application for jailbroken iOS devices being developed by a team which I'm part of. Don't ask for an ETA, it might come out one day.</p>
 				</div>
-				<div class="project animated fadeInLeft fast">
+				<div class="project fadeInLeft">
 					<h2>StopChillin'</h2>
 					<p>StopChillin' is a simple yet useful tweak that tells you you're using your phone way too much. Don't tell me it's a copy of screen time, cause it's different. It sends a notification every &ltspecified time&gt, and the notification is 100% customizable.</p>
 				</div>
 			</div>
 			<br /><hr /><br />
-			<div id="social-div" class="animated fadeInRight fast">
+			<div id="social-div" class="fadeInRight">
 				<h1>My social media & other links</h1>
 				<p>I put my most important info & projects here, but it's not everything. If you want more, take a look at my social media.</p>
 				<p id="links">
