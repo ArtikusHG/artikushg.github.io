@@ -30,3 +30,37 @@ Section: Tweaks
 Description: A small and unfinished theming engine I made as an experiment.
 Author: ArtikusHG
 Name: NeonBoard
+
+Package: com.artikus.neonboard-lite
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 392
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.artikus.neonboard, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
+Filename: ./debs/com.artikus.neonboard-lite_1.0.0_iphoneos-arm.deb
+Size: 35076
+MD5sum: 18c08a8e1e515e63715d2828aa045948
+SHA1: fe0dd6c37c3ff258ce331c618e7f4913067d730a
+SHA256: 2abcbea94889c0d799e1b85d0bb98887ad5c446053adf61a2338fdbd23fe41ff
+Section: Tweaks
+Description: A lightweight simple theming engine for iOS 13. Does not support glyph themes.
+Author: ArtikusHG
+Name: NeonBoard Lite
+
+Package: com.artikus.unitether
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Depends: mobilesubstrate, coreutils, coreutils-bin
+Filename: ./debs/UniTether.deb
+Size: 43690
+MD5sum: 265a926b8e0acc41294c6e7cc8dea968
+SHA1: 0d0d0c1a3a6a49b39830321bf063feb5986a4d9d
+SHA256: 15558e3f4dbb9a1284f276ff58a1dd4052306bce68f658ed2e295ca4b647fcff
+Section: Tweaks
+Description: A semi-untether? Maybe...
+Author: ArtikusHG
+Name: UniTether
