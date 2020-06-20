@@ -32,7 +32,7 @@ Author: ArtikusHG
 Name: NeonBoard
 
 Package: com.artikus.neonboard-lite
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Installed-Size: 392
@@ -40,11 +40,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.artikus.neonboard, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Replaces: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Provides: com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
-Filename: ./debs/com.artikus.neonboard-lite_1.0.0_iphoneos-arm.deb
-Size: 35076
-MD5sum: 18c08a8e1e515e63715d2828aa045948
-SHA1: fe0dd6c37c3ff258ce331c618e7f4913067d730a
-SHA256: 2abcbea94889c0d799e1b85d0bb98887ad5c446053adf61a2338fdbd23fe41ff
+Filename: ./debs/com.artikus.neonboard-lite_1.0.1_iphoneos-arm.deb
+Size: 35792
+MD5sum: dfd419d225194a37c519690c4641cd33
+SHA1: 55532c26d1daa1c1b454c9dfb5e2b32e203d2e3e
+SHA256: 9e7b19c89ac66ca5a303ae6814d6981fcbe1d06fa8e10112183e882793d566a9
 Section: Tweaks
 Description: A lightweight simple theming engine for iOS 13. Does not support glyph themes.
 Author: ArtikusHG
