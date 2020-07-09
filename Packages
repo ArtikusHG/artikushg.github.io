@@ -65,3 +65,19 @@ Description: A semi-untether? Maybe...
 Author: ArtikusHG
 Name: UniTether
 
+Package: com.artikus.valentine
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.artikus.valentine_1.0.0_iphoneos-arm.deb
+Size: 5678
+MD5sum: 4cac6bf79f9ddb2c57818a161e52fcd6
+SHA1: 73d133b4126e550f7466eab05876497d13c5671f
+SHA256: 35b90b13efc3843d44bf086486c415cb900792c28e153b20219a184fde6ce9c6
+Section: Tweaks
+Description: iOS 14 Calendar app icon for iOS 10 - 13.
+Author: ArtikusHG
+Name: Valentine
+
