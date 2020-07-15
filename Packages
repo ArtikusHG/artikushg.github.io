@@ -22,10 +22,10 @@ Conflicts: com.codethemed.iconbundles
 Replaces: com.codethemed.iconbundles
 Provides: com.codethemed.iconbundles
 Filename: ./debs/com.artikus.iconbundles_1.0_iphoneos-arm.deb
-Size: 13214
-MD5sum: 66aa8a98937671fbb42e8307e984e086
-SHA1: a74b0ff5ac3e0bcad5374efac2a2874032dbc9f6
-SHA256: 39bda794762720edeccbc79035d120ed372ebf0b498748d093ff2cd7ce5b4040
+Size: 13212
+MD5sum: b1ab61fae66afbe951c7044f57ccc08c
+SHA1: 32f7f95b30d3ee71f4133e285b10bb78670e4c14
+SHA256: e9a43b99bb10d281ee1acb9ff25abf2308e055b3f6c3696bd88fb66f3cc19177
 Section: Tweaks
 Description: IconBundles fork with support for newer theme formats and a few external options.
 Author: ArtikusHG
