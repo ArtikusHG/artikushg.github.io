@@ -69,6 +69,25 @@ Description: A lightweight simple theming engine for iOS 13.
 Author: ArtikusHG
 Name: NeonBoard Lite
 
+Package: com.artikus.preferenceloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 260
+Depends: mobilesubstrate
+Conflicts: preferenceloader
+Replaces: preferenceloader
+Provides: preferenceloader (= 2.2.4)
+Filename: ./debs/com.artikus.preferenceloader_1.0.0_iphoneos-arm.deb
+Size: 33236
+MD5sum: 9f535ea64e854b328d1f418da2f1ea46
+SHA1: a43734cfdad4c32112c48884fd4b2326df5ea19d
+SHA256: ea09b5cad374e41bbdefad967cd77b0c922d3d06dc8f7c6a43e0cbc40242d177
+Section: Tweaks
+Description: A lightweight and modern alternative to Dustin Howett's PreferenceLoader.
+Author: ArtikusHG
+Name: PreferenceLoader
+
 Package: com.artikus.unitether
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -83,20 +102,4 @@ Section: Tweaks
 Description: A semi-untether? Maybe...
 Author: ArtikusHG
 Name: UniTether
-
-Package: com.artikus.valentine
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: ArtikusHG
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.artikus.valentine_1.0.0_iphoneos-arm.deb
-Size: 5678
-MD5sum: 4cac6bf79f9ddb2c57818a161e52fcd6
-SHA1: 73d133b4126e550f7466eab05876497d13c5671f
-SHA256: 35b90b13efc3843d44bf086486c415cb900792c28e153b20219a184fde6ce9c6
-Section: Tweaks
-Description: iOS 14 Calendar app icon for iOS 10 - 13.
-Author: ArtikusHG
-Name: Valentine
 
