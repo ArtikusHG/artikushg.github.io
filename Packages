@@ -111,11 +111,11 @@ Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.artikus.valentine_1.1_iphoneos-arm.deb
 Size: 10578
-MD5sum: 892e27d799ff399ca5e9998e5d56fc9d
-SHA1: 0090f849e89658889228f1486fec669baa9571df
-SHA256: ba0e1d176cadfa2ebb4b7eaeaf6e6e41d6b790ecdc8b32ffce99fe85f830b105
+MD5sum: a43416ba8ce04f08302ba0475ab2a2b8
+SHA1: 5caeb15aa127cb19e9041e3ebd7a75dd5402a6e4
+SHA256: 343d8d74a1f57cebda76a01dbab7a796e234f0686797743689f5775e2029b6b8
 Section: Tweaks
-Description: iOS 14 Calendar app icon for iOS 10 - 13.
+Description: iOS 14 Calendar app icon for iOS 7 - 13.
 Author: ArtikusHG
 Name: Valentine
 
