@@ -51,7 +51,7 @@ Author: ArtikusHG
 Name: NeonBoard
 
 Package: com.artikus.neonboard-lite
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Installed-Size: 1092
@@ -59,13 +59,13 @@ Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: com.artikus.neonboard, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Replaces: com.artikus.neonboard, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Provides: com.artikus.neonboard, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
-Filename: ./debs/com.artikus.neonboard-lite_1.3_iphoneos-arm.deb
-Size: 111718
-MD5sum: 47d196209ce0ac9333204d9e3ec98463
-SHA1: 3f4f18a589c6c459d32663ef9a097196c9774970
-SHA256: 004020b3f2c43a05d7c412193a17842a31875426b4bbd9e128a7933da1fa3693
+Filename: ./debs/com.artikus.neonboard-lite_1.3.1_iphoneos-arm.deb
+Size: 110292
+MD5sum: 93be872bea7b593375533a1972b40ba0
+SHA1: b84158d216d4f3a6b2e19c93dc9e4a74a3961b5b
+SHA256: e3ef06c9722fb6cd9c8a00d90e9325215c8194755f6e5dbe0d2d3c2e1e2b7de5
 Section: Tweaks
-Description: A lightweight simple theming engine for iOS 13.
+Description: A lightweight simple theming engine for iOS 7 - 13.
 Author: ArtikusHG
 Name: NeonBoard Lite
 
