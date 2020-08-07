@@ -12,6 +12,22 @@ Description: Icy is a lightweight DPKG-based package manager for iOS.
 Author: ArtikusHG
 Name: Icy
 
+Package: com.artikus.fullscreencc
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.artikus.fullscreencc_1.0.0_iphoneos-arm.deb
+Size: 5096
+MD5sum: e854b89f23686c604db1b499f31b9676
+SHA1: c1580305d953f6f06d8d8003ebfb62d2cffd29d2
+SHA256: 45399f43837b188ff2ad8a883c6f770b206687f0aa5a161bac066ebec2b88afc
+Section: Tweaks
+Description: Fullscreen control center for iOS 7 - 9.
+Author: ArtikusHG
+Name: FullscreenCC
+
 Package: com.artikus.iconbundles
 Version: 1.0
 Architecture: iphoneos-arm
