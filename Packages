@@ -86,19 +86,19 @@ Author: ArtikusHG
 Name: NeonBoard Lite
 
 Package: com.artikus.preferenceloader
-Version: 1.0.10
+Version: 1.0.11
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Installed-Size: 416
 Depends: mobilesubstrate
 Conflicts: preferenceloader
 Replaces: preferenceloader
-Provides: preferenceloader (= 2.2.4)
-Filename: ./debs/com.artikus.preferenceloader_1.0.10_iphoneos-arm.deb
-Size: 44422
-MD5sum: 0136e17443f36b6b0198c4cc7b32098b
-SHA1: fed8280d494991a040b97d6d1eb67b81a11cf634
-SHA256: 5d0f97153a9cc6993a1f2d8fc96a7978df3904ba6a54478070e846fbd26c89a9
+Provides: preferenceloader (= 2.2.5)
+Filename: ./debs/com.artikus.preferenceloader_1.0.11_iphoneos-arm.deb
+Size: 40354
+MD5sum: f0b2befa4bb45cef16cf3b3210292092
+SHA1: f1fc70577b2ca6c716f60cc7a379862550b728bb
+SHA256: 478634032b69416f934d059ece31d3e13f63c8d1b2bb953c229301777926f499
 Section: Tweaks
 Description: A lightweight and modern alternative to Dustin Howett's PreferenceLoader.
 Author: ArtikusHG
