@@ -48,19 +48,19 @@ Author: ArtikusHG
 Name: IconBundles
 
 Package: com.artikus.neonboard
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
-Installed-Size: 2264
+Installed-Size: 2296
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Replaces: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Provides: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
-Filename: ./debs/com.artikus.neonboard_1.0_iphoneos-arm.deb
-Size: 227772
-MD5sum: 754db9a461ba9bebaaf2ac34aa45153d
-SHA1: 281faaf7e84a9035a160d548768c91ce39deeb83
-SHA256: 00a3d67e32a5700aafc756b2eb6ce621ca51af21497ffc7b873c4b7e115dd01e
+Filename: ./debs/com.artikus.neonboard_1.0.1_iphoneos-arm.deb
+Size: 229522
+MD5sum: 81c04c0e28b1a080c9407f1311077dc3
+SHA1: 74747cb74006c3763f72a7e5f551dce1fca8a414
+SHA256: 00dd8387577796dd09c722cfc4c49b3a1038f7ff9f6d0bcd4cb0e2b9489d98f3
 Section: Tweaks
 Description: A fully-featured lightweight theming engine for iOS 7 - 14.
 Author: ArtikusHG
