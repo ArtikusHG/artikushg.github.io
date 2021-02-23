@@ -48,7 +48,7 @@ Author: ArtikusHG
 Name: IconBundles
 
 Package: com.artikus.neonboard
-Version: 1.0.8
+Version: 1.0.9
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Installed-Size: 2312
@@ -56,11 +56,11 @@ Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Replaces: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Provides: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
-Filename: ./debs/com.artikus.neonboard_1.0.8_iphoneos-arm.deb
-Size: 245268
-MD5sum: 96e4e975fdca764867721f15fd12b6b6
-SHA1: 0fa3594edb4c06ab12e38cdbbe28023b4fc6eebb
-SHA256: d0fd56d7f48a88ddd980cf7ca44323c6f10960aead8c41b0738521077a88bea2
+Filename: ./debs/com.artikus.neonboard_1.0.9_iphoneos-arm.deb
+Size: 245350
+MD5sum: 1e0b597963daccbac4b330bb1c8403c8
+SHA1: 16246deccdf5ada624bc45a34a1835ee0d7a0aa2
+SHA256: 13d0509528f1201db86662a465f34e9199326e4adde5b14a894828869336892a
 Section: Tweaks
 Description: A fully-featured lightweight theming engine for iOS 7 - 14.
 Author: ArtikusHG
