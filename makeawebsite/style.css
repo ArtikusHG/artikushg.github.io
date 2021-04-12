@@ -1,0 +1,40 @@
+* { font-family: "Source Code Pro", Monospace; }
+img {
+  max-width: 90%;
+  box-shadow: 0 10px 10px 0 rgba(0 , 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+img:hover { -webkit-transform: scale(1.05); transform: scale(1.05); }
+body {
+  color: white;
+  background-color: #485266;
+  width: 96%;
+  margin: auto;
+  overflow-x: hidden;
+}
+p { font-size: 15pt; line-height: 1.5; }
+h1, h2, h3 { font-weight: 100; }
+a { color: lightBlue; text-decoration: none; }
+a:hover, a:focus { color: #90ee90; }
+a:active { color: #f76b60; }
+.selected {
+  background-color: #606c82;
+  padding: 1px 25px 1px 25px;
+  border: 1px solid white;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+hr {
+  height: 2px;
+  border: none;
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff 60%, rgb(255, 255, 255, 0) 0%);
+  background-size: 40px 2px;
+  background-repeat: repeat-x;
+  margin: 0;
+}
+table, td, th { font-size: 16pt; border: 2px solid white; }
+th, td { padding: 5px; }
+table { border-collapse: collapse; }
