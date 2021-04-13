@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="prism.js"></script>
+    <link rel="stylesheet" type="text/css" href="prism.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Часть 4: Работа с таблицами. Прикола в названии на этот раз не будет.</title>
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <h1>Часть 4: Работа с таблицами. Прикола в названии на этот раз не будет.</h1>
+    <hr />
+    <h2>Предислодфлыовтьылывовие</h2>
+    <div class="selected animate__animated animate__fadeInLeft">
+      <p>В один прекрасный солнечный день, на отработке по физике, я сел писать очередной туториал по таблицам. Открыв презентацию из класрума, я решил проверить акутальность информации, предлагаемой для изучения. Так вот: сказать что я пришёл в ужас - это словно ничего не сказать.</p>
+      <p>Абсолютно <b><u><i>все</i></u></b> аттрибуты для таблиц, предлагаемые в этой презентации, были устаревшими. У меня нет слов. Я ливаю.</p>
+      <p>Вобщем, в этом туториале, я расскажу вам как <u>правильно</u> делать таблицы в HTML.</p>
+    </div>
+    <br />
+    <hr />
+    <h2>Тег table и его аттрибуты</h2>
+    <div class="selected animate__animated animate__fadeInRight">
+      <p>В HTML работа с таблицами осуществляется при помощи тега table. Внутрь него помещаются другие теги. Примерно так выглядит обыкновенная таблица на HTML:</p>
+      <pre class="language-html"><code>&lt;table&gt;
+  &lt;caption&gt;Название таблицы&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Заголовок 1&lt;/th&gt;
+    &lt;th&gt;Заголовок 2&lt;/th&gt;
+    &lt;th&gt;Заголовок 3&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ячейка 1&lt;/td&gt;
+    &lt;td&gt;Ячейка 2&lt;/td&gt;
+    &lt;td&gt;Ячейка 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ячейка 4&lt;/td&gt;
+    &lt;td&gt;Ячейка 5&lt;/td&gt;
+    &lt;td&gt;Ячейка 6&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+    <p>И результат:</p>
+    <table align="center">
+      <caption>Название таблицы</caption>
+      <tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+        <th>Заголовок 3</th>
+      </tr>
+      <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+        <td>Ячейка 3</td>
+      </tr>
+      <tr>
+        <td>Ячейка 4</td>
+        <td>Ячейка 5</td>
+        <td>Ячейка 6</td>
+      </tr>
+    </table>
+    <p>А теперь, пройдёмся построчно по коду этой таблицы:</p>
+    <pre class="language-html"><code>&lt;table&gt; - обозначает начало и конец таблицы. всё внутри этого тега - это содержимое таблицы, то есть ячейки.
+&lt;caption&gt; - этот тег не является обязательным, он обозначает название таблицы.
+&lt;tr&gt; - сокращенно от table row, или же ряд таблицы. этот тег обозначает начало и конец ряда. все ячейки, прописанные внутри него, будут расположенны горизонтально слева направо.
+&lt;th&gt; и &lt;td&gt; - ячейки таблицы.
+&lt;th&gt; - table header - заголовок таблицы, обычно пишется в верхний ряд, чтобы обозначить названия столбцов. отличается от обычной ячейки тем, что шрифт автоматически станет жирным, и выровняется по центру.
+&lt;td&gt; - table data - табличное данное, обыкновенная ячейка.</code></pre>
+    <p>По факту, таблицы и списки несколько схожи - только используют другие теги, и перечисление ячеек идет слева направо, а не сверху вниз.</p>
+    </div>
+    <br />
+    <hr />
+    <h2>Объединение ячеек</h2>
+    <div class="selected animate__animated animate__fadeInLeft">
+      <p>Теперь поговорим об объединении ячеек. Это делается следующим образом:</p>
+      <pre class="language-html"><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;!-- объединение по вертикали. аттрибут colspan указывает ячейке на то, что она должна принять размер сразу двух ячеек в данном ряду (количество зависит от числа в кавычках) --&gt;
+    &lt;th colspan="2"&gt;Заголовок 228&lt;/th&gt;
+    &lt;th&gt;Заголовок 322&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ячейка 101&lt;/td&gt;
+    &lt;!-- объединение по горизонтали. аттрибут rowspan указывает ячейке на то, что она должна принять размер сразу двух ячеек в данной колонке (количество зависит от числа в кавычках) --&gt;
+    &lt;td rowspan="2"&gt;Ячейка 420&lt;/td&gt;
+    &lt;td&gt;Ячейка 777&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ячейка 103&lt;/td&gt;
+    &lt;td&gt;Ячейка 1337&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+      <p>И вот, собственно, результат:</p>
+      <table align="center">
+        <tr>
+          <th colspan="2">Заголовок 228</th>
+          <th>Заголовок 322</th>
+        </tr>
+        <tr>
+          <td>Ячейка 101</td>
+          <td rowspan="2">Ячейка 420</td>
+          <td>Ячейка 777</td>
+        </tr>
+        <tr>
+          <td>Ячейка 103</td>
+          <td>Ячейка 1337</td>
+        </tr>
+      </table>
+      <p><i><u>Обратите внимание: чтобы объединить ячейки по горизонтали или вертикали, у вас в таблице должно присутствовать свободное место. Если вы хотите, чтобы одна ячейка занимала место двух в ряду, где и так нет свободного места, это не сработает. То же самое со столбцами. Также, аттрибуты colspan и rowspan можно применять как к тегу td, так и к тегу td.</u></i></p>
+    </div>
+    <br />
+    <hr />
+    <h2>Стилизирование таблицы (цвет фона, рамки, текста и т.д.)</h2>
+    <div class="selected animate__animated animate__fadeInRight">
+      <p>Собственно, то, ради чего мы здесь все собрались - научиться форматировать таблицы <b><u><i>правильно</i></u></b>. Иииииии плохие новости! У нас не получится.</p>
+      <p>К сожалению, для того, чтобы работать с таблицами, не используя устаревшие аттрибуты, нужно изучать CSS. Туториал по CSS я напишу, но не в этот раз....</p>
+      <p>Вобщем, стилизирование таблицы (тег table):</p>
+      <pre class="language-html"><code>&lt;!-- добавление рамочки вокруг таблицы --&gt;
+&lt;table border="1"&gt;&lt;/table&gt;
+&lt;!-- цветная рамочка --&gt;
+&lt;table border="1" bordercolor="red"&gt;&lt;/table&gt;
+&lt;!-- красивая плавная рамочка (без дублирования) --&gt;
+&lt;table border="1" bordercolor="red" rules="all"&gt;&lt;/table&gt;
+&lt;!-- задание ширины и высоты таблицы (в пикселях) --&gt;
+&lt;table style="width: 200px; height: 300px;"&gt;&lt;/table&gt;
+&lt;!-- задание ширины и высоты таблицы (в процентах, значения не выше 100). в этом случае таблица займет такую часть от страницы, какая будет указана в процентах --&gt;
+&lt;table style="width: 70%; height: 90%;"&gt;&lt;/table&gt;
+&lt;!-- задание ширины и высоты может производиться поодиночке --&gt;
+&lt;table style="height: 228px;"&gt;&lt;/table&gt;
+&lt;table style="width: 103px;"&gt;&lt;/table&gt;
+&lt;!-- задание расстояния между соседними ячейками (в пикселях) --&gt;
+&lt;table cellspacing="10"&gt;&lt;/table&gt;
+&lt;!-- задание расстояния между текстом и краями ячейки (в пикселях) --&gt;
+&lt;table cellpadding="10"&gt;&lt;/table&gt;</code></pre>
+    <p>Стилизирование названия таблицы (тег caption):</p>
+    <pre class="language-html"><code>&lt;!-- помещение названия под таблицу --&gt;
+&lt;caption align="bottom"&gt;название!&lt;/caption&gt;
+&lt;!-- размещение названия слева или справа (нет, аттрибут align не работает) --&gt;
+&lt;caption style="text-align: left"&gt;название слева!&lt;/caption&gt;
+&lt;caption style="text-align: right"&gt;название справа!&lt;/caption&gt;</code></pre>
+    <p>Стилизирование рядов таблицы (тег tr) и индивидуальных ячеек (теги th и td):</p>
+    <pre class="language-html"><code>&lt;!-- изменение расположения текста в ячейках по горизонтали --&gt;
+&lt;tr style="text-align: left"&gt;&lt;/tr&gt;
+&lt;tr style="text-align: center"&gt;&lt;/tr&gt;
+&lt;tr style="text-align: right"&gt;&lt;/tr&gt;
+&lt;!-- изменение расположения текста в ячейках по вертикали --&gt;
+&lt;tr style="vertical-align: top"&gt;&lt;/tr&gt;
+&lt;tr style="vertical-align: cetner"&gt;&lt;/tr&gt;
+&lt;tr style="vertical-align: bottom"&gt;&lt;/tr&gt;</code></pre>
+    <p><u><i>Обратите внимание: точно также можно выравнивать текст и в обыкновенных ячейках</i></u></p>
+    <p>И дополнительная информация:</p>
+    <pre class="language-html"><code>&lt;!-- этот аттрибут запрещает перенос текста, то есть ячейка будет расширяться в соответствие с размером текста. --&gt;
+&lt;th nowrap&gt;&lt;/th&gt;</code></pre>
+    </div>
+    <br />
+    <hr />
+    <h2>Заключение</h2>
+    <div class="selected animate__animated animate__fadeInLeft">
+      <p>Когда-нибудь, я обязательно напишу туториал по CSS. А пока-что можно делать неправильно....</p>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <input type="button" value="Светлая тема специально для Татьяны Гордеевны" onclick="switchTheme()" />
+    <br />
+    <br />
+  </body>
+  <script type="text/javascript" src="lighttheme.js"></script>
+</html>
