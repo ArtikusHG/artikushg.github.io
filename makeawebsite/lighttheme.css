@@ -1,9 +1,0 @@
-/* СВЕТЛАЯ ТЕМА (да, a:active надо заново вставлять) */
-body { color: black; background-color: white; }
-a { color: #224e85; }
-a:hover, a:focus { color: #29a37e; }
-a:active { color: #cf554a; }
-.selected { background-color: #f0f0ff; border: 1px solid black; }
-hr { background: #000000; }
-pre[class*="language-"] { border-bottom: 4px solid #dabdab; }
-table, td, th { border: 2px solid black; }
