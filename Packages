@@ -12,6 +12,22 @@ Description: Icy is a lightweight DPKG-based package manager for iOS.
 Author: ArtikusHG
 Name: Icy
 
+Package: com.artikus.bringbackthetexture
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ArtikusHG
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.artikus.bringbackthetexture_1.0.0_iphoneos-arm.deb
+Size: 36886
+MD5sum: f392c4095f3c67fbf241f595580e0f22
+SHA1: 398cc9fbc834adef51b35d1218d194cce186ea9a
+SHA256: 1a7428e67876128a7dd0623dee72a1bbd988ac6a5707cd1c70c3001cd83a49d2
+Section: Tweaks
+Description: A little tweak that brings back the background texture that was removed from the notes app in iOS 14.
+Author: ArtikusHG
+Name: BringBackTheTexture
+
 Package: com.artikus.fullscreencc
 Version: 1.0.0
 Architecture: iphoneos-arm
