@@ -13,16 +13,16 @@ Author: ArtikusHG
 Name: Icy
 
 Package: com.artikus.bringbackthetexture
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
 Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.artikus.bringbackthetexture_1.0.0_iphoneos-arm.deb
-Size: 36886
-MD5sum: f392c4095f3c67fbf241f595580e0f22
-SHA1: 398cc9fbc834adef51b35d1218d194cce186ea9a
-SHA256: 1a7428e67876128a7dd0623dee72a1bbd988ac6a5707cd1c70c3001cd83a49d2
+Filename: ./debs/com.artikus.bringbackthetexture_1.0.1_iphoneos-arm.deb
+Size: 36828
+MD5sum: 06b4dde448ce42e8f6d680cfc7508c62
+SHA1: 6b51e622dd8f2e827dc146fd4f21b050fdb93d5b
+SHA256: f6eceaf6bc934fcf91fbf5b4a1f68a4b8fc618c489cd1742c93072efddb7471c
 Section: Tweaks
 Description: A little tweak that brings back the background texture that was removed from the notes app in iOS 14.
 Author: ArtikusHG
