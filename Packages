@@ -64,19 +64,19 @@ Author: ArtikusHG
 Name: IconBundles
 
 Package: com.artikus.neonboard
-Version: 1.0.14
+Version: 1.0.15
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
-Installed-Size: 2452
+Installed-Size: 2320
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Replaces: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
 Provides: com.artikus.neonboard-lite, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.fonts, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.labels, com.spark.snowboard.pagedots, com.spark.snowboard.proceduralwallpapers, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.sounds, com.spark.snowboard.statusbar, com.spark.snowboard.ui
-Filename: ./debs/com.artikus.neonboard_1.0.14_iphoneos-arm.deb
-Size: 255870
-MD5sum: f637a3eeabd0d20b40d62faf19421b4f
-SHA1: e9c15de5425f2174414192c08fcda74fe5b7044f
-SHA256: 81be1679a8d9b515ed359bcfa298d41cd55de606dd48f4684ca262e57c4a8b9d
+Filename: ./debs/com.artikus.neonboard_1.0.15_iphoneos-arm.deb
+Size: 252434
+MD5sum: a5f204963ed707ab756f5de91be4b188
+SHA1: 7236ee68eb44edb03d90640310c8a3a11ba5e86b
+SHA256: 0561ac080d4927aa225249efacec8bbb886e0d91f8532f577e62144145a8d736
 Section: Tweaks
 Description: A fully-featured lightweight theming engine for iOS 7 - 14.
 Author: ArtikusHG
@@ -102,19 +102,19 @@ Author: ArtikusHG
 Name: NeonBoard Lite
 
 Package: com.artikus.preferenceloader
-Version: 1.0.15
+Version: 1.0.16
 Architecture: iphoneos-arm
 Maintainer: ArtikusHG
-Installed-Size: 528
+Installed-Size: 448
 Depends: mobilesubstrate
 Conflicts: preferenceloader
 Replaces: preferenceloader
 Provides: preferenceloader (= 2.2.6)
-Filename: ./debs/com.artikus.preferenceloader_1.0.15_iphoneos-arm.deb
-Size: 43206
-MD5sum: 8fc127d1aaa1d4ec1328325a5887ffdb
-SHA1: fea8e657a6f68fdd274e02b520996fca21deb3d1
-SHA256: 73d10ea9b5a3ddc4bfdcacdc32c3911421c0c9054b66c7e16901cbbc7544160d
+Filename: ./debs/com.artikus.preferenceloader_1.0.16_iphoneos-arm.deb
+Size: 41304
+MD5sum: 6461939ee596a01c0fef0c0c01ceb180
+SHA1: d2d04ff8457a49f9c8afc87d3ea5d8097376fdfb
+SHA256: 65ba9b23d61c23769d78bbdd4d1e0d4db6a18cb4ae93b811b85402b12628b4f1
 Section: System
 Description: A lightweight and modern alternative to Dustin Howett's PreferenceLoader.
 Author: ArtikusHG
